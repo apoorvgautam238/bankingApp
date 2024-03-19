@@ -1,5 +1,6 @@
 package normalflowusingjavaonly;
 
+import java.sql.Driver;
 import java.time.Duration;
 
 import org.openqa.selenium.Alert;
@@ -13,7 +14,10 @@ import org.openqa.selenium.support.ui.Select;
 import com.github.javafaker.Faker;
 
 public class BankingApp {
+	
 	//public static WebElement firstname;
+	
+	//Framework:- Oops -Inheritance,Objects,Encapulation,Interface,Collection,Modifier,Super,this etc,TestNg plugin,TestNG dependency;
 	public static void main(String[] args) throws Exception {
 
 		
@@ -66,5 +70,9 @@ public class BankingApp {
         driver.findElement(By.xpath("//button[@type=\"submit\"]")).click();
         
         }
+	
 
+	   
 }
+
+
